@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: #fafafa;
+    font-size: 14px;
+  }
+  .wrapper .header{
+      max-width: 350px;
+      height: auto;
+      margin: 50px auto 40px;
+  }
+  .wrapper .header .top{
+      background-color: #fff;
+      border: 1px solid #e6e6e6;
+      padding: 40px 40px 40px;
+  }
+ 
+  .wrapper .header .form .input_field .input{
+      width: 100%;
+      background-color: #fafafa ;
+      border: 1px solid #efefef ;
+      font-size: 12px;
+      border-radius: 3px;
+      padding: 10px;
+      color: #262626;
+  }
+  .wrapper .header .form .btn{
+      margin: 10px 0;
+      background: #3897f0 ;
+      border: 1px solid #3897f0;
+      text-align: center;
+      border-radius: 4px;
+  }
+  .wrapper .header .form .btn a{
+      color: white;
+  }
+  .wrapper .header .form .or{
+      display: flex;
+      margin: 25px 0 10px;
+      justify-content: space-between;
+  }
+  .wrapper .header .form .line{
+      width: 105px;
+      height: 2px;
+      background-color: #efefef;
+  }
+  .diff{
+      text-align: center;
+  }
+.selection{
+    border: none;
+}
+.supplements a{
+
+    text-align: center;
+    color: rgba(var(--f52,142,142,142),1);
+    letter-spacing: 1px;
+}
+.fb{
+    color: blue;
+}
+.sign{
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    width: 37%;
+}
+.input_field:hover{
+    background-color:black ;
+}
+
+
+
